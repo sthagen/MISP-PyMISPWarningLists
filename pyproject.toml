@@ -29,13 +29,13 @@ include = [
 ]
 
 [project.optional-dependencies]
-fetch_lists = ["requests (>=2.32.5)"]
+fetch_lists = ["requests (>=2.34.0)"]
 
 [tool.poetry.group.dev.dependencies]
 jsonschema = "^4.26.0"
-mypy = "^1.19.1"
-pytest-cov = "^7.0.0"
-types-requests = "^2.32.4.20260107"
+mypy = "^2.1.0"
+pytest-cov = "^7.1.0"
+types-requests = "^2.33.0.20260508"
 
 [build-system]
 requires = ["poetry-core>=2.0"]
